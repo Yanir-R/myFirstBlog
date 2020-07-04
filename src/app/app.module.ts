@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from '../app/compoenents/nav-bar/nav-bar.component';
 import { FooterComponent } from '../app/compoenents/footer/footer.component';
 import { ArticleListComponent } from '../app/compoenents/article-list/article-list.component';
+import { AboutComponent } from '../app/compoenents/about/about.component';
 
 @NgModule({
-	declarations: [ AppComponent, NavBarComponent, FooterComponent, ArticleListComponent ],
+	declarations: [ AppComponent, NavBarComponent, FooterComponent, ArticleListComponent, AboutComponent ],
 	imports: [ BrowserModule, AppRoutingModule ],
 	providers: [],
 	bootstrap: [ AppComponent ]

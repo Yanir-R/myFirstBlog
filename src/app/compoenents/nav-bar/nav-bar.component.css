@@ -1,0 +1,35 @@
+.title {
+	font-size: 2em;
+	text-align: center;
+	border-bottom: 1px solid grey;
+	padding: 0.7rem;
+}
+
+.title a {
+	color: black !important;
+	text-decoration: none !important;
+}
+.navBar {
+	font-size: 1.2em;
+	text-align: center;
+	color: blue;
+	border-bottom: 1px solid green;
+	padding: 0.5rem;
+}
+
+.nav-item {
+	padding: 10px;
+	text-decoration: none;
+	color: rgba(128, 128, 128, 0.74);
+}
+
+.nav-item:visited,
+.nav-item:active,
+.nav-item:focus {
+	text-decoration: none;
+	color: rgb(102, 99, 99);
+}
+
+.nav-item:hover {
+	text-decoration: underline;
+}
