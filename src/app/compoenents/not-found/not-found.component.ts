@@ -8,8 +8,8 @@ import { RouterModule } from '@angular/router';
 })
   
 export class NotFoundComponent implements OnInit {
-  constructor() { }
-
+  constructor(private route: RouterModule) { }
+  
   ngOnInit() {
   }
 
