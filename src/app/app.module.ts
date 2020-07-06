@@ -10,7 +10,7 @@ import { AboutComponent } from '../app/compoenents/about/about.component';
 
 @NgModule({
 	declarations: [ AppComponent, NavBarComponent, FooterComponent, ArticleListComponent, AboutComponent ],
-	imports: [ BrowserModule, AppRoutingModule ],
+	imports: [ BrowserModule.withServerTransition({ appId: 'serverApp' }), AppRoutingModule ],
 	providers: [],
 	bootstrap: [ AppComponent ]
 })
