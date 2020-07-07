@@ -11,7 +11,7 @@ import { SharedService } from 'src/app/shared.service';
   styleUrls: ['./article.component.css'],
 })
 export class ArticleComponent implements OnInit {
-  article: Article = new Article();
+   article: Article = new Article();
   constructor(
     private route: ActivatedRoute,
     private articleService: ArticleService,
@@ -19,7 +19,7 @@ export class ArticleComponent implements OnInit {
     private titleService: Title,
     private sharedService: SharedService,
     private meta: Meta
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.route.params.subscribe((params) => {

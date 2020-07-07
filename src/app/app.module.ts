@@ -7,11 +7,12 @@ import { NavBarComponent } from '../app/compoenents/nav-bar/nav-bar.component';
 import { FooterComponent } from '../app/compoenents/footer/footer.component';
 import { ArticleListComponent } from '../app/compoenents/article-list/article-list.component';
 import { AboutComponent } from '../app/compoenents/about/about.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-	declarations: [ AppComponent, NavBarComponent, FooterComponent, ArticleListComponent, AboutComponent ],
-	imports: [ BrowserModule.withServerTransition({ appId: 'serverApp' }), AppRoutingModule ],
+	declarations: [AppComponent, NavBarComponent, FooterComponent, ArticleListComponent, AboutComponent],
+	imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }), AppRoutingModule, HttpClientModule],
 	providers: [],
-	bootstrap: [ AppComponent ]
+	bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
