@@ -11,7 +11,7 @@ import { SharedService } from 'src/app/shared.service';
   styleUrls: ['./article.component.css'],
 })
 export class ArticleComponent implements OnInit {
-   article: Article = new Article();
+  article: Article = new Article();
   constructor(
     private route: ActivatedRoute,
     private articleService: ArticleService,
